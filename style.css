@@ -1,0 +1,40 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ccc;
+}
+.searchfield{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:white;
+    height: 200px;
+    
+   }
+   
+   .searchfield article input {
+    height: 40px;
+    width: 550px;
+    
+   }
+   .searchfield h1{
+       color: crimson;
+       font-size: 40px;
+   }
+   .searchfield article button{
+    height: 40px;
+    width: 70px;
+    background-color: crimson;
+    color: white;
+    border: none;
+
+    
+   }
